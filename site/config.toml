@@ -45,6 +45,7 @@ theme = "hugo-elate-theme"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+  img = "http://проф-обр.рф/_ld/1/69916522.jpg"
 
   [[params.intro.item]]
     title = "Bepoz Remote Support"
