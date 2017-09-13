@@ -15,7 +15,6 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "Bepoz"
-    [logo = "med_desktop2.png"]
     home = "Home"
     work = "Support Tools"
     testimonials = "Warnings"
