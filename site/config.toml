@@ -51,7 +51,7 @@ theme = "hugo-elate-theme"
     description = "Allow techinon to remote support"
     url = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
     button = "Download and Run"
-    icon = "icon-bulb"
+    icon = "CentraStageIcon.png"
     img = "Bepoz_CentraStage.png"
     
   [[params.intro.item]]
