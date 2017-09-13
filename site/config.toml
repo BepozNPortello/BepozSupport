@@ -47,12 +47,12 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
+    title = "Bepoz Remote Support"
+    description = "Allow techinon to remote support"
+    url = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
+    button = "Download and Run"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    img = "Bepoz_CentraStage.png"
 
   [[params.intro.item]]
     title = "Develop"
