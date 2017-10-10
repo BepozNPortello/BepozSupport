@@ -158,6 +158,8 @@ theme = "hugo-elate-theme"
       title = "Paylink Removal"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-anchor"
+      urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
+      buttonserv = "Download and Run"
     [[params.services.item]]
       title = "Centra Stage Cleaner"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
