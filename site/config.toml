@@ -61,7 +61,7 @@ theme = "hugo-elate-theme"
     url = "https://bepozglobal.atlassian.net/wiki/spaces/SP"
     button = "Start Learning"
     icon = "Grad_Cap.svg"
-    img = "img_8.jpg"
+    img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Customer Documents"
@@ -69,7 +69,7 @@ theme = "hugo-elate-theme"
     url = "https://bepozglobal.atlassian.net/wiki/spaces/KNOW/pages/84621762/Bepoz+End+User+Documents"
     button = "Get Started"
     icon = "paper.svg"
-    img = "img_10.jpg"
+    img = "img_7.jpg"
 
   [params.intro.video]
     enable = false
