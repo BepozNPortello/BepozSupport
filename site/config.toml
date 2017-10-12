@@ -276,14 +276,7 @@ theme = "hugo-elate-theme"
     map = false
     title = "Get in touch"
     description = "Bepoz support is here for you. Please reach out to use using one of the methods bellow"
-	details = "
-	| Billable    | Billable (time 1/2 charge)|Non-Billable |
-| :------- | ----: | :---: |
-| Implementation| Support after Hours*[1]|  Break Fix Support    |
-| Change Requests| |  Research on standard workflow requests  |
-| Research on advanced work flow requests|    |  |
-[1]:Normal business hours are 8:00pm to 6:30pm est. M-F. Excluding holidays
-	"
+	details = "Billable vs Non Billable	"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "111 Clebour Street,Fort Mill SC 29715 <br> Bepoz Support"],
