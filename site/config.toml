@@ -153,7 +153,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Tools"
-    description = ""Please only run with Bepoz Technician supervision. Bepoz cannot beheld liable for the use of these tool with out direction from Bepoz Technician. Please reachout to support for any issues."
+    description = "Please only run with Bepoz Technician supervision. Bepoz cannot beheld liable for the use of these tool with out direction from Bepoz Technician. Please reachout to support for any issues."
     [[params.services.item]]
       title = "Paylink Removal"
       description = "Please only run with Bepoz Technician supervision. Removes paylink for re-install"
