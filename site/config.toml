@@ -167,14 +167,26 @@ theme = "hugo-elate-theme"
       urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
       buttonserv = "Download and Run"
     [[params.services.item]]
-      title = "Helpful Tool 3"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Ethernet Configuration"
+      description = "This tool will help with finding and setting the EPSON installs"
       icon = "icon-video2"
       urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
       buttonserv = "Download and Run"
       [[params.services.item]]
-      title = "Helpful Tool 4"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "IP Scan"
+      description = "This tool will help with scanning the network for all devices"
+      icon = "icon-monitor"
+      urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
+      buttonserv = "Download and Run"
+	  [[params.services.item]]
+      title = "Speed Fan"
+      description = "Used to view the current PC temperature"
+      icon = "icon-monitor"
+      urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
+      buttonserv = "Download and Run"
+	  [[params.services.item]]
+      title = "Com Test"
+      description = "Used to test Com Ports to see replys form serial devices"
       icon = "icon-monitor"
       urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
       buttonserv = "Download and Run"
@@ -264,7 +276,15 @@ theme = "hugo-elate-theme"
     map = false
     title = "Get in touch"
     description = "Bepoz support is here for you. Please reach out to use using one of the methods bellow"
-
+	details = "
+	| Billable    | Billable (time 1/2 charge)|Non-Billable |
+| :------- | ----: | :---: |
+| Implementation| Support after Hours*[1]|  Break Fix Support    |
+| Change Requests| |  Research on standard workflow requests  |
+| Research on advanced work flow requests|    |  |
+[1]:Normal business hours are 8:00pm to 6:30pm est. M-F. Excluding holidays
+> **Note:** Break Fix Support consist of errors or software reported issues. If the system or hardware was pre-existing working then stopped working this would not be covered under non-billable. 
+	"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "111 Clebour Street,Fort Mill SC 29715 <br> Bepoz Support"],
