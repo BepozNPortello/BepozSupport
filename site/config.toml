@@ -153,16 +153,16 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Tools"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""Please only run with Bepoz Technician supervision. Bepoz cannot beheld liable for the use of these tool with out direction from Bepoz Technician. Please reachout to support for any issues."
     [[params.services.item]]
       title = "Paylink Removal"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Please only run with Bepoz Technician supervision. Removes paylink for re-install"
       icon = "icon-anchor"
       urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
       buttonserv = "Download and Run"
     [[params.services.item]]
       title = "Centra Stage Cleaner"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Please only run with Bepoz Technician supervision. Cleans Up Centra Stage for a clean install"
       icon = "icon-layers2"
       urlserv = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
       buttonserv = "Download and Run"
