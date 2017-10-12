@@ -276,7 +276,6 @@ theme = "hugo-elate-theme"
     map = false
     title = "Get in touch"
     description = "Bepoz support is here for you. Please reach out to use using one of the methods bellow"
-	details = "Billable vs Non Billable	"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "111 Clebour Street,Fort Mill SC 29715 <br> Bepoz Support"],
