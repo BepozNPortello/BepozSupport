@@ -269,7 +269,8 @@ theme = "hugo-elate-theme"
       to = 52
       interval = 50
       speed = 5000
-
+  # billing section
+  [params.billing]
   # Contact section
   [params.contact]
     enable = true
