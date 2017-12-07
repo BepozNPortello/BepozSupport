@@ -271,6 +271,7 @@ theme = "hugo-elate-theme"
       speed = 5000
   # billing section
   [params.billing]
+    enable = true
   # Contact section
   [params.contact]
     enable = true
