@@ -201,13 +201,15 @@ theme = "hugo-elate-theme"
     description = "Click the tabs for more information"
     [[params.about.ExtraBillableNotes]]
       description = "Note: Break Fix Support consist of errors or software reported issues. If the system or hardware was pre-existing working then stopped working this would not be covered under non-billable."
-      severity = "info"
+      severity = "danger"
+      alerts = "hours"
     [[params.about.ExtraBillableNotes]]
       description = "[1]:Normal business hours are 8:00pm to 6:30pm est. M-F. Excluding holidays"
       severity = "info"
     [[params.about.ExtraBillableNotes]]
-      description = "Adavnced research on non standard configurations is considered billable."
+      description = "[2] Adavnced research on non standard configurations is considered billable."
       severity = "info"
+      alerts = "advanced"
   # Counters section
   [params.counters]
     enable = false
