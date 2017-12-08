@@ -193,45 +193,40 @@ theme = "hugo-elate-theme"
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
-
+    title = "Support Cost"
+    description = "Please read the below information regarding billable vs Non-billable time. All phone calls are taken as billable, until otherwise proven differnt. Please send in a support in email for billable or non billable."
+    TableHeader1 = "Role"
+    TableHeader2 = "Hours"
+    [[params.about.InfoTabs]]
+    description = "Click the tabs for more information"
+    [[params.about.Tabs]]
+        Typename = "Billable"
+    [[params.about.Tabs]]
+        Typename = "Billable (time 1/2 charge)"
+    [[params.about.Tabs]]
+        Typename = "Advanced Research"
+    [[params.about.TabPanels]]
+        Typename = "Billable"
+    [[params.about.TabPanels]]
+        Typename = "Billable (time 1/2 charge)"
+    [[params.about.TabPanels]]
+        Typename = "Advanced Research"
+    [[params.about.Tables1]]
+      description = "Note: Break Fix Support consist of errors or software reported issues. If the system or hardware was pre-existing working then stopped working this would not be covered under non-billable."
+      role = "Implementaion"
+      boolen = "True"
+    [[params.about.Tables1]]
+      description = "[1]:Normal business hours are 8:00pm to 6:30pm est. M-F. Excluding holidays"
+      role = "Change Request"
+      boolen = "True"
+    [[params.about.Tables1]]
+      description = "Adavnced research on non standard configurations is considered billable."
+      role = "Billable Break Fix Support"
+      boolen = "True"
+    [[params.about.Tables1]]
+      description = "Adavnced research on non standard configurations is considered billable."
+      role = "Research on advanced work flow request"
+      boolen = "True"
   # Counters section
   [params.counters]
     enable = false
