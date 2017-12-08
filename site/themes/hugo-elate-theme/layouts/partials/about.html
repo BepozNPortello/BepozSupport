@@ -12,81 +12,62 @@
                     </div>
                 </div>
                 <div class="row">
-                    {{ range .Site.Params.about.InfoTabs }}
                     <div class="col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
-                        <p class="category">{{ .description }}</p>
-                        <!-- Nav tabs -->
-                        <div class="card">
-                            <ul class="nav nav-tabs justify-content-center" role="tablist">
-                                {{ range .Site.Params.about.Tabs }}
-                                <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#{{.Typename}}" role="tab"> <i class="now-ui-icons objects_umbrella-13"></i>{{ .Typename | markdownify }}</a>
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <!-- Tab panes -->
-                                <div class="tab-content text-center">
-                                    {{ range .Site.Params.about.TabPanels }}
-                                    <div class="tab-pane active" id="{{.Typename}}" role="tabpanel">
-                                        <table class="table table-bordered table-hover table-condensed table-responsive">
-                                            <thead>
-                                                <tr>
-                                                    <th> {{.TableHeader1}} </th>
-                                                    <th> {{.TableHeader2}} </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {{ range .Site.Params.about.Tables1 }}
-                                                <tr>
-                                                    <td> {{.Role | markdownify}} </td>
-                                                    <td> {{.Boolen | markdownify}} </td>
-                                                </tr>
-                                                {{.description}}
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane" id="profile" role="tabpanel">
-                                        <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                                    </div>
-                                    <div class="tab-pane" id="messages" role="tabpanel">
-                                        <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-                                    </div>
-                                    <div class="tab-pane" id="settings" role="tabpanel">
-                                        <p> "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at." </p>
+                        <p class="category">
+                            <div class="alert alert-warning" role="alert"> <strong>Warning!</strong> Note: Break Fix Support consist of errors or software reported issues. If the system or hardware was pre-existing working then stopped working this would not be covered under non-billable. </div>
+                            <!-- Tabs with Background on Card -->
+                            <div class="card">
+                                <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
+                                    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Billable</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Billable (time 1/2 charge)</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Advanced Research</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#settings1" role="tab">Non-Billable</a> </li>
+                                </ul>
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content text-center">
+                                        <div class="tab-pane active" id="home1" role="tabpanel">
+                                            <table class="table table-bordered table-hover table-condensed table-responsive">
+                                                <thead>
+                                                    <tr>
+                                                        <th> Role </th>
+                                                        <th> Hours </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td> Implementaion </td>
+                                                        <td> Change Requests </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Research on advanced work flow requests </td>
+                                                        <td> Billable Break Fix Support </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Hardware Failure </td>
+                                                        <td> Database Corruption </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Reporting Investigation </td>
+                                                        <td> Credit Card Reconsiliation </td>
+                                                    </tr>
+                                                </tbody>
+                                                <p>test</p>
+                                            </table> {{ range .Site.Params.about.ExtraNotes }}
+                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }} </div>
+                                        <div class="tab-pane" id="profile1" role="tabpanel">
+                                            <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                        </div>
+                                        <div class="tab-pane" id="messages1" role="tabpanel">
+                                            <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                        </div>
+                                        <div class="tab-pane" id="settings1" role="tabpanel">
+                                            <p> "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at." </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
-                        <p class="category">Tabs with Background on Card</p>
-                        <!-- Tabs with Background on Card -->
-                        <div class="card">
-                            <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
-                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Home</a> </li>
-                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Profile</a> </li>
-                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Messages</a> </li>
-                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#settings1" role="tab">Settings</a> </li>
-                            </ul>
-                            <div class="card-body">
-                                <!-- Tab panes -->
-                                <div class="tab-content text-center">
-                                    <div class="tab-pane active" id="home1" role="tabpanel">
-                                        <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-                                    </div>
-                                    <div class="tab-pane" id="profile1" role="tabpanel">
-                                        <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                                    </div>
-                                    <div class="tab-pane" id="messages1" role="tabpanel">
-                                        <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-                                    </div>
-                                    <div class="tab-pane" id="settings1" role="tabpanel">
-                                        <p> "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at." </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Tabs on plain Card -->
+                            <!-- End Tabs on plain Card -->
                     </div>
                 </div>
             </div>
