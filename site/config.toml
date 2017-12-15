@@ -40,7 +40,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Bepoz is here to Help"
-    subtitle = 'On this site you will find tools to help you with a guid of a Bepoz techintion resolve your issues quickly'
+    subtitle = 'On this site you will find tools to help guide you and your Bepoz Technician to a quick resolution of your technical issues'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -49,7 +49,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Bepoz Remote Support"
-    description = "Allow techinon to remote support"
+    description = "Allow a Technician to remote support"
     url = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
     button = "Download and Run"
     icon = "CentraStageIcon.png"
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Customer Documents"
-    description = "For all documents on ender user operations for Bepoz or Bepoz related software please navigate to the link provided"
+    description = "For all documents on user operations or Bepoz related software please click the link below"
     url = "https://bepozglobal.atlassian.net/wiki/spaces/KNOW/pages/84621762/Bepoz+End+User+Documents"
     button = "Get Started"
     icon = "paper.svg"
@@ -153,40 +153,40 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Tools"
-    description = "Please only run with Bepoz Technician supervision. Bepoz cannot beheld liable for the use of these tool with out direction from Bepoz Technician. Please reachout to support for any issues."
+    description = "These tools are here to help but please only run with Bepoz Technician supervision. Bepoz cannot be held liable for the use of these tools without direction from a Bepoz Technician. Please reachout to the support team with any issues."
     [[params.services.item]]
       title = "Paylink Removal"
-      description = "Please only run with Bepoz Technician supervision. Removes paylink for re-install"
+      description = "Must only use this tool with Bepoz Technician supervision. It is used to remove Paylink for re-install"
       icon = "icon-anchor"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/PaylinkRemoval.bat"
       buttonserv = "Download and Run"
     [[params.services.item]]
       title = "Centra Stage Cleaner"
-      description = "Please only run with Bepoz Technician supervision. Cleans Up Centra Stage for a clean install"
+      description = "Must only use this tool with Bepoz Technician supervision. It is used to clean up Centra Stage for a smooth install"
       icon = "icon-layers2"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/remove_centrastage.exe"
       buttonserv = "Download and Run"
     [[params.services.item]]
       title = "Ethernet Configuration"
-      description = "This tool will help with finding and setting the EPSON installs"
+      description = "This tool is used to configure your EPSON printer"
       icon = "icon-video2"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/EtherConfig.exe"
       buttonserv = "Download and Run"
       [[params.services.item]]
       title = "IP Scan"
-      description = "This tool will help with scanning the network for all devices"
+      description = "This tool is used to scan devices on the local network"
       icon = "icon-monitor"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/ipscan25.exe"
       buttonserv = "Download and Run"
 	  [[params.services.item]]
       title = "Speed Fan"
-      description = "Used to view the current PC temperature"
+      description = "This tool is used to view the current PC temperature"
       icon = "icon-monitor"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/instspeedfan452.exe"
       buttonserv = "Download and Run"
 	  [[params.services.item]]
       title = "Com Test"
-      description = "Used to test Com Ports to see replys form serial devices"
+      description = "This tool is used to test the communication of your serial device"
       icon = "icon-monitor"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/Install_ComTestSerial_3_1_0_129.exe"
       buttonserv = "Download and Run"
@@ -194,7 +194,7 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "Support Cost"
-    description = "Please read the below information regarding billable vs Non-billable time. All phone calls are taken as billable, until otherwise proven differnt. Please send in a support in email for billable or non billable."
+    description = "Please read the information below regarding Billable vs Non-billable time. All phone calls are considered billable, until determined otherwise. Support emails can be sent to Support@bepoz.com regardless of billable or non billable."
     TableHeader1 = "Role"
     TableHeader2 = "Hours"
     [[params.about.InfoTabs]]
