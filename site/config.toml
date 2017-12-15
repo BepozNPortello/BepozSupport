@@ -210,6 +210,10 @@ theme = "hugo-elate-theme"
       description = "[2] Adavnced research on non standard configurations is considered billable."
       severity = "info"
       alerts = "advanced"
+    [[params.about.ExtraAdvancedNotes]]
+      description = "[2] A new project is considered advanced research. Planning will be needed in order to duplicate these or similar features."
+      severity = "info"
+      alerts = "advanced"
   # Counters section
   [params.counters]
     enable = false
@@ -255,7 +259,7 @@ theme = "hugo-elate-theme"
     enable = true
     map = false
     title = "Get in touch"
-    description = "Bepoz support is here for you. Please reach out to us using one of the methods bellow"
+    description = "Bepoz support is here for you. Please reach out to us using one of the methods below"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "111 Clebourne Street, Fort Mill SC 29715 <br> Bepoz Support"],
