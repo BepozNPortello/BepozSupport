@@ -255,10 +255,10 @@ theme = "hugo-elate-theme"
     enable = true
     map = false
     title = "Get in touch"
-    description = "Bepoz support is here for you. Please reach out to use using one of the methods bellow"
+    description = "Bepoz support is here for you. Please reach out to us using one of the methods bellow"
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "111 Clebour Street,Fort Mill SC 29715 <br> Bepoz Support"],
+        ["icon-home", "111 Clebourne Street, Fort Mill SC 29715 <br> Bepoz Support"],
         ["icon-phone", "+1 (803) 802-2404 Option 2"],
         ["icon-envelope", "Support@bepoz.com"],
         ["icon-globe", '<a href="http://bepoz.com/" target="_blank">bepoz.com</a>']
