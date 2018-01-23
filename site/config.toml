@@ -11,7 +11,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = ""
   description = "Support Links for Bepoz America LLC support"
-  email = ""
+  email = "support@bepoz.com"
   # Navigation
   [params.navigation]
     brand = "Bepoz"
@@ -263,7 +263,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "111 Clebourne Street, Fort Mill SC 29715 <br> Bepoz Support"],
-        ["icon-phone", "+1 (803) 802-2404 Option 2"],
+        ["icon-phone", "+1 (855) 313-0857 Option 2"],
         ["icon-envelope", "Support@bepoz.com"],
         ["icon-globe", '<a href="http://bepoz.com/" target="_blank">bepoz.com</a>']
       ]
