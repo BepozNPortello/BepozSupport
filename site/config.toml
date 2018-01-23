@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
     work = "Support Tools"
     testimonials = "Warnings"
     services = "Support Applications"
-    about = "About"
+    about = "Support Cost"
     contact = "Contact"
 
     # You can add custom links before or after the default links
