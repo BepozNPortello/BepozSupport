@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
     work = "Support Tools"
     testimonials = "Warnings"
     services = "Support Applications"
-    about = "Support Cost"
+    about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -161,8 +161,8 @@ theme = "hugo-elate-theme"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/PaylinkRemoval.bat"
       buttonserv = "Download and Run"
     [[params.services.item]]
-      title = "Centra Stage Cleaner"
-      description = "Must only use this tool with Bepoz Technician supervision. It is used to clean up Centra Stage for a smooth install"
+      title = "CentraStage Cleaner"
+      description = "Must only use this tool with Bepoz Technician supervision. It is used to clean up CentraStage for a smooth install"
       icon = "icon-layers2"
       urlserv = "http://d1wzjmpxmd6fyh.cloudfront.net/software/remove_centrastage.exe"
       buttonserv = "Download and Run"
@@ -194,20 +194,20 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "Support Cost"
-    description = "Please read the information below regarding Billable vs Non-billable time. All phone calls are considered billable, until determined otherwise. Support emails can be sent to Support@bepoz.com regardless of billable or non billable."
+    description = "Please read the information below regarding billable vs non-billable time. All phone calls are considered billable, until determined otherwise. Support emails can be sent to Support@bepoz.com regardless of billable or non-billable."
     TableHeader1 = "Role"
     TableHeader2 = "Hours"
     [[params.about.InfoTabs]]
     description = "Click the tabs for more information"
     [[params.about.ExtraBillableNotes]]
-      description = "Note: Break Fix Support consist of errors or software reported issues. If the system or hardware was pre-existing working then stopped working this would not be covered under non-billable."
+      description = "Note: Break Fix Support consists of errors or software reported issues. If the pre-existing system or hardware was working then stopped working this would not be covered under non-billable."
       severity = "danger"
       alerts = "hours"
     [[params.about.ExtraBillableNotes]]
-      description = "[1]:Normal business hours are 8:00pm to 6:30pm est. M-F. Excluding holidays"
+      description = "[1] Normal business hours are 8:00pm to 6:30pm est. M-F. Excluding holidays"
       severity = "info"
     [[params.about.ExtraBillableNotes]]
-      description = "[2] Adavnced research on non standard configurations is considered billable."
+      description = "[2] Advanced research on non-standard configurations is considered billable."
       severity = "info"
       alerts = "advanced"
     [[params.about.ExtraAdvancedNotes]]
