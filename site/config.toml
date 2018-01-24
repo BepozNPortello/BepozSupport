@@ -68,7 +68,7 @@ theme = "hugo-elate-theme"
     description = "You can find helpful learning material to jump start your understadning of Bepoz"
     url = "learn.bepozhelp.us"
     button = "Start Learning"
-    icon = "movie_play_orange.png"
+    icon = "learning_play_orange.png"
     img = "img_7.jpg"
     
   [[params.intro.item]]
