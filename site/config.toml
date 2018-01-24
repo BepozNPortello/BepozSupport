@@ -62,7 +62,15 @@ theme = "hugo-elate-theme"
     button = "Start Learning"
     icon = "Grad_Cap.svg"
     img = "img_7.jpg"
-
+    
+  [[params.intro.item]]
+    title = "Learning Portal"
+    description = "You can find helpful learning material to jump start your understadning of Bepoz"
+    url = "learn.bepozhelp.us"
+    button = "Start Learning"
+    icon = "Grad_Cap.svg"
+    img = "img_7.jpg"
+    
   [[params.intro.item]]
     title = "Customer Documents"
     description = "For all documents on user operations or Bepoz related software please click the link below"
