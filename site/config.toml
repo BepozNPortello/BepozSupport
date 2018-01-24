@@ -19,8 +19,8 @@ theme = "hugo-elate-theme"
     work = "Support Tools"
     testimonials = "Warnings"
     services = "Support Applications"
-    about = "Support Cost"
     contact = "Contact"
+    about = "Support Cost"    
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -68,7 +68,7 @@ theme = "hugo-elate-theme"
     description = "You can find helpful learning material to jump start your understadning of Bepoz"
     url = "learn.bepozhelp.us"
     button = "Start Learning"
-    icon = "Grad_Cap.svg"
+    icon = "movie_play_orange.png"
     img = "img_7.jpg"
     
   [[params.intro.item]]
