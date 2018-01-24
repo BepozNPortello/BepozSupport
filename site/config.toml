@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
     description = "Allow a Technician to remote support"
     url = "https://zinfandel.centrastage.net/csm/profile/downloadAgent/643bd879-3bed-47af-837a-d832cd6522a8"
     button = "Download and Run"
-    icon = "CentraStageIcon.png"
+    icon = "CentraStage_Sat_Icon.png"
     img = "img_7.jpg"
 
   [[params.intro.item]]
@@ -76,7 +76,7 @@ theme = "hugo-elate-theme"
     description = "For all documents on user operations or Bepoz related software please click the link below"
     url = "https://bepozglobal.atlassian.net/wiki/spaces/KNOW/pages/84621762/Bepoz+End+User+Documents"
     button = "Get Started"
-    icon = "paper.svg"
+    icon = "customer_documents_icon.png"
     img = "img_7.jpg"
 
   [params.intro.video]
