@@ -60,7 +60,7 @@ theme = "hugo-elate-theme"
     description = "You can find helpful training material and basic information about the Bepoz software from the link below"
     url = "https://bepozglobal.atlassian.net/wiki/spaces/SP"
     button = "Start Learning"
-    icon = "Grad_Cap.svg"
+    icon = "learning_center_book.png"
     img = "img_7.jpg"
     
   [[params.intro.item]]
