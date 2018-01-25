@@ -29,15 +29,15 @@
 		{{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
         {{ end }}
-
-		{{ if .Site.Params.contact.enable }}
-        	{{ partial "contact.html" .}}
-        {{ end }}
         
 		{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}
 		{{ end }}
-        
+     
+		{{ if .Site.Params.contact.enable }}
+        	{{ partial "contact.html" .}}
+        {{ end }}
+           
         {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}
         {{ end }}
