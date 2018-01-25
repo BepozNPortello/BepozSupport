@@ -221,7 +221,52 @@
                                     <!-- Tab panes -->
                                     <div class="tab-content text-center">
                                         <div class="tab-pane active" id="home" role="tabpanel" aria-expanded="true">
-                                            <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                            <table class="table table-bordered table-hover table-condensed table-responsive">
+                                                <thead>
+                                                    <tr>
+                                                        <th> Role </th>
+                                                        <th> Hours (EST) </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td> Implementation </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Hardware Failure </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Reporting Investigation </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Change Requests </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Billable Break Fix Support </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Database Corruption </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Credit Card Reconciliation </td>
+                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                    </tr>
+                                                </tbody>
+                                                <p>
+                                                    <Strong>Billable</Strong>
+                                                </p>
+                                            </table> {{ range .Site.Params.about.ExtraBillableNotes }}
+                                            <div id="{{.alerts}}" class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
                                         </div>
                                         <div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
                                             <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
