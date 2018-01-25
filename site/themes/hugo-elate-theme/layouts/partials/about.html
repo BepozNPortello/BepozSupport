@@ -7,387 +7,211 @@
                         <h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                                <h3>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3> </div>
+                                <h3>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 col-lg-8 col-xl-6 col-md-offset-2 ml-auto mr-auto">
-                        <p class="category">
-                            <div class="alert alert-warning" role="alert"> <strong>Warning!</strong> Note: Break Fix Support consists of errors or software reported issues. If the pre-existing system or hardware was working then stopped working this would not be covered under non-billable. </div> 
-                            <!-- Tabs with Background on Card -->
-                            <div class="card">
-                                <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
-                                    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Billable</a> </li>
-                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Billable (time 1/2 charge)</a> </li>
-                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Advanced Research</a> </li>
-                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#settings1" role="tab">Non-Billable</a> </li>
-                                </ul>
-                                <div class="card-body">
-                                    <!-- Tab panes -->
-                                    <div class="tab-content text-center">
-                                        <div class="tab-pane active" id="home1" role="tabpanel">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Implementation </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Hardware Failure </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Reporting Investigation </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Change Requests </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Billable Break Fix Support </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Database Corruption </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Credit Card Reconciliation </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Billable</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraBillableNotes }}
-                                            <div id="{{.alerts}}" class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }} </div>
-                                        <div class="tab-pane active" id="profile1" role="tabpanel">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Implementation </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Hardware Failure </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Reporting Investigation </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Change Requests </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Billable Break Fix Support </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Database Corruption </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Credit Card Reconciliation </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Billable Over Time</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraBillableNotes }}
-                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }} </div>
-                                        <div class="tab-pane active" id="messages1" role="tabpanel">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Account Loyalty Program </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Points Loyalty </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Memberships </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Printer Routing </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Ticket Sales </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Voucher Base Promotions </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Advanced Research</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraAdvancedNotes }}
-                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }} </div>
-                                        <div class="tab-pane active" id="settings1" role="tabpanel">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Research Standard Workflow </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Bepoz Feature Change </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Warranties </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Non-Billable</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraNonBillableNotes }}
-                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }} </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Tabs on plain Card -->
-                    </div>
                     <div class="col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
-                            <p class="category">Tabs with Icons on Card</p>
-                            <!-- Nav tabs -->
-                            <div class="card">
-                                <ul class="nav nav-tabs justify-content-center" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-expanded="true">
+                        <p class="category">
+                            <div class="alert alert-warning" role="alert"> <strong>Warning!</strong> Note: Break Fix Support consists of errors or software reported issues. If the pre-existing system or hardware was working then stopped working this would not be covered under non-billable. </div>
+                        </p>
+                        <!-- Nav tabs -->
+                        <div class="card">
+                            <ul class="nav nav-tabs justify-content-center" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-expanded="true">
                                             <i class="now-ui-icons objects_umbrella-13"></i> Billable
                                         </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-expanded="false">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-expanded="false">
                                             <i class="now-ui-icons shopping_cart-simple"></i> Billable (time 1/2 charge)
                                         </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-expanded="false">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-expanded="false">
                                             <i class="now-ui-icons shopping_shop"></i> Advanced Research
                                         </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-expanded="false">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-expanded="false">
                                             <i class="now-ui-icons ui-2_settings-90"></i> Non-Billable
                                         </a>
-                                    </li>
-                                </ul>
-                                <div class="card-body">
-                                    <!-- Tab panes -->
-                                    <div class="tab-content text-center">
-                                        <div class="tab-pane active" id="home" role="tabpanel" aria-expanded="true">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Implementation </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Hardware Failure </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Reporting Investigation </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Change Requests </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Billable Break Fix Support </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Database Corruption </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Credit Card Reconciliation </td>
-                                                        <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Billable</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraBillableNotes }}
-                                            <div id="{{.alerts}}" class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
-                                        </div>
-                                        <div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Implementation </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Hardware Failure </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Reporting Investigation </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Change Requests </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Billable Break Fix Support </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Database Corruption </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Credit Card Reconciliation </td>
-                                                        <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Billable Over Time</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraBillableNotes }}
-                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
-                                        </div>
-                                        <div class="tab-pane" id="messages" role="tabpanel" aria-expanded="false">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Account Loyalty Program </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Points Loyalty </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Memberships </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Printer Routing </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Ticket Sales </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Voucher Base Promotions </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Advanced Research</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraAdvancedNotes }}
-                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
-                                        </div>
-                                        <div class="tab-pane" id="settings" role="tabpanel" aria-expanded="false">
-                                            <table class="table table-bordered table-hover table-condensed table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th> Role </th>
-                                                        <th> Hours (EST) </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td> Research Standard Workflow </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Bepoz Feature Change </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td> Warranties </td>
-                                                        <td> 8:00 PM to 6:30 PM M-F </td>
-                                                    </tr>
-                                                </tbody>
-                                                <p>
-                                                    <Strong>Non-Billable</Strong>
-                                                </p>
-                                            </table> {{ range .Site.Params.about.ExtraNonBillableNotes }}
-                                            <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
-                                        </div>
+                                </li>
+                            </ul>
+                            <div class="card-body">
+                                <!-- Tab panes -->
+                                <div class="tab-content text-center">
+                                    <div class="tab-pane active" id="home" role="tabpanel" aria-expanded="true">
+                                        <table class="table table-bordered table-hover table-condensed table-responsive">
+                                            <thead>
+                                                <tr>
+                                                    <th> Role </th>
+                                                    <th> Hours (EST) </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Implementation </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Hardware Failure </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Reporting Investigation </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Change Requests </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Billable Break Fix Support </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Database Corruption </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Credit Card Reconciliation </td>
+                                                    <td> 8:00 AM to 6:30 PM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                            </tbody>
+                                            <p>
+                                                <Strong>Billable</Strong>
+                                            </p>
+                                        </table> {{ range .Site.Params.about.ExtraBillableNotes }}
+                                        <div id="{{.alerts}}" class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
+                                    </div>
+                                    <div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
+                                        <table class="table table-bordered table-hover table-condensed table-responsive">
+                                            <thead>
+                                                <tr>
+                                                    <th> Role </th>
+                                                    <th> Hours (EST) </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Implementation </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Research of advanced work flow requests <a href="advanced" class="alert-link">[2]</a></td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Hardware Failure </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Reporting Investigation </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Change Requests </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Billable Break Fix Support </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Database Corruption </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Credit Card Reconciliation </td>
+                                                    <td> 6:30 PM to 8:00 AM M-F <a href="alerts" class="alert-link">[1]</a></td>
+                                                </tr>
+                                            </tbody>
+                                            <p>
+                                                <Strong>Billable Over Time</Strong>
+                                            </p>
+                                        </table> {{ range .Site.Params.about.ExtraBillableNotes }}
+                                        <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
+                                    </div>
+                                    <div class="tab-pane" id="messages" role="tabpanel" aria-expanded="false">
+                                        <table class="table table-bordered table-hover table-condensed table-responsive">
+                                            <thead>
+                                                <tr>
+                                                    <th> Role </th>
+                                                    <th> Hours (EST) </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Account Loyalty Program </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Points Loyalty </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Memberships </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Printer Routing </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Ticket Sales </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Voucher Base Promotions </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                            </tbody>
+                                            <p>
+                                                <Strong>Advanced Research</Strong>
+                                            </p>
+                                        </table> {{ range .Site.Params.about.ExtraAdvancedNotes }}
+                                        <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
+                                    </div>
+                                    <div class="tab-pane" id="settings" role="tabpanel" aria-expanded="false">
+                                        <table class="table table-bordered table-hover table-condensed table-responsive">
+                                            <thead>
+                                                <tr>
+                                                    <th> Role </th>
+                                                    <th> Hours (EST) </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Research Standard Workflow </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Bepoz Feature Change </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Warranties </td>
+                                                    <td> 8:00 PM to 6:30 PM M-F </td>
+                                                </tr>
+                                            </tbody>
+                                            <p>
+                                                <Strong>Non-Billable</Strong>
+                                            </p>
+                                        </table> {{ range .Site.Params.about.ExtraNonBillableNotes }}
+                                        <div class="alert alert-{{.severity}}" role="alert"> <strong>Heads up!</strong> {{.description}}</div>{{ end }}
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
